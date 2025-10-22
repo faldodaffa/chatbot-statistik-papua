@@ -180,7 +180,7 @@ def get_rag_response(user_query, _vector_store, _api_key):
 
 
 # --- UI STREAMLIT (Sama seperti sebelumnya) ---
-st.set_page_config(page_title="Chatbot Statistik Papua", page_icon="📊")
+st.set_page_config(page_title="Chatbot Statistik Papua", page_icon="📊", layout="centered")
 st.title("📊 Chatbot Statistik Daerah Provinsi Papua 2025")
 st.caption("Tanya jawab berdasarkan dokumen 'Statistik Daerah Provinsi Papua 2025' (Model: Gemini 2.5 Flash)")
 st.sidebar.header("Status Proses")
