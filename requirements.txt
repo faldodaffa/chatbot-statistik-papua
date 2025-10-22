@@ -1,0 +1,14 @@
+streamlit
+# matplotlib # Kita tidak pakai, bisa dikomentari/hapus
+# google-genai>=1.0.0 # Ini duplikat/versi lama, pakai google-generativeai
+google-generativeai # Versi lebih baru, untuk configure API key
+langchain-google-genai>=2.1.0 # Sesuai webinar
+# langgraph>=0.0.30 # Kita tidak pakai LangGraph (untuk agent kompleks)
+langchain>=0.1.0 # Sesuai webinar
+# --- Tambahan untuk RAG Project Kita ---
+pypdf # Untuk PDF
+faiss-cpu # Untuk Vector Store
+python-dotenv # Untuk .env
+langchain-community # Untuk loader, vector store, embedding wrapper
+sentence-transformers # Untuk embedding lokal
+cryptography # Dependensi pypdf
