@@ -11,3 +11,9 @@ Chatbot ini menggunakan Retrieval-Augmented Generation (RAG) untuk menjawab pert
 - Sentence Transformers (Embedding Lokal)
 - ChromaDB (Vector Store)
 - PyPDF (Loader PDF)
+
+## Live Demo Aplikasi
+
+Aplikasi chatbot dapat diakses secara online melalui link berikut:
+
+[https://chatbot-statistik-papua.streamlit.app/](https://chatbot-statistik-papua.streamlit.app/)
